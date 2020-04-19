@@ -38,11 +38,15 @@ body {
     
         h2{
             margin-top: -5px;
+            margin-bottom: 0px;
             font-size: 24px;
             font-weight: 300;
         }
     }
 
+    p{
+        margin: 20px 0px;
+    }
 
     .avatar{
         border-radius: 50%;
@@ -57,7 +61,7 @@ body {
         align-items: center;
 
         .stackoverflow_flair{
-            margin: 5px;
+            margin: 0px 8px;
             float: right;
             width: 100px;
             overflow: hidden;
@@ -69,14 +73,14 @@ body {
         }
 
         .linkedin{
-            margin: 5px;
+            margin: 0px 8px;
             img{
                 width: 40px;
             }
         }
 
         .steam{
-            margin: 5px;
+            margin: 0px 8px;
             img{
                 width: 40px;
             }
