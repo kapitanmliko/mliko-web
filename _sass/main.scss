@@ -25,6 +25,7 @@ body {
 }
 
 .front_page{
+    margin: 0px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +61,7 @@ body {
         font-weight: 400;
 
         p{
+            text-align: center;
             white-space: nowrap;
         }
     }
