@@ -2,4 +2,36 @@
 layout: default
 title: Kapitán Mlíko
 ---
-<h1>{{ "Mlíko!" | downcase }}</h1>
+<div class="front_page">
+    <img src="{{ '/assets/image/avatar.jpg' | relative_url }}" class="avatar"/>
+    <!-- <h1>{{ "Mlíko!" | downcase }}</h1> -->
+    <div class="title">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ site.twitter_username }}</h2>
+    </div>
+    <div class="socials">
+        <div class="stackoverflow_flair">
+            <a href="https://stackoverflow.com/users/1456174/kapit%c3%a1n-ml%c3%adko" target="_blank">
+                <img src="https://stackoverflow.com/users/flair/1456174.png?theme=clean"
+                    alt="profile for Kapit&#225;n Ml&#237;ko at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+                    title="profile for Kapit&#225;n Ml&#237;ko at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+            </a>
+        </div>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/vit-hrciak" target="_blank">
+                <img src="{{ '/assets/image/linkedin40.png' | relative_url }}"
+                    alt="LinkedIn"
+                    title="LinkedIn"/>
+            </a>
+        </div>
+        <div class="steam">
+            <a href="https://steamcommunity.com/id/kapitanmliko" target="_blank">
+                <img src="{{ '/assets/image/steam40.png' | relative_url }}"
+                alt="Steam"
+                title="Steam"/>
+            </a>
+        </div>
+        
+    </div>
+
+</div>
